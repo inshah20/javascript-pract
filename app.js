@@ -291,7 +291,57 @@
 // })
 
 
-document.addEventListener("keydown", function(event){
-    console.log("key is pressing")
-    console.log(event.key +  event.keyCode)
-})              
+// document.addEventListener("keydown", function(event){
+//     console.log("key is pressing")
+//     console.log(event.key +  event.keyCode)
+// })              
+
+
+
+// let fullText = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate suscipit eligendi nihil aut obcaecati nam iste
+// dolor sed iure qui quibusdam esse dolores iusto delectus voluptas eos provident non sunt, eaque minus incidunt enim
+// explicabo! Odio accusantium inventore laborum perspiciatis tempore. Illo, maxime atque pariatur ad voluptas suscipit
+// deserunt porro quos quidem incidunt quia totam ipsam repellat, adipisci eveniet numquam ratione fugiat ullam sed at
+// recusandae repudiandae reiciendis. Molestiae, modi?`
+
+// let shortText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maiores."
+
+// let btn = document.getElementById("btn")
+
+// let para = document.getElementById("para");
+
+// btn.addEventListener("click" , function(){
+    
+//     if(btn.innerHTML == "see more"){
+//         para.innerHTML = fullText;
+//         btn.innerHTML = "see less";
+    
+//     }
+
+
+//     else{
+//         para.innerHTML = shortText;
+//         btn.innerHTML = "see more";
+//     }
+// })
+
+
+
+let paragraph = document.getElementsByTagName("p");
+let btn = document.getElementById("btn");
+
+
+btn.addEventListener("click", function(){
+    for(let i = 0; i<paragraph.length; i++){
+        paragraph[2] .className = "bg-color"
+        paragraph[2].innerHTML = "inshah is the best"
+    }
+})
+
+
+// let para = document.getElementById("p")
+// let btn = document.getElementById("btn")
+
+// btn.addEventListener("click" , function(){
+//     para.className = "hidden"
+// })
