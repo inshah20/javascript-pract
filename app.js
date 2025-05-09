@@ -327,16 +327,16 @@
 
 
 
-let paragraph = document.getElementsByTagName("p");
-let btn = document.getElementById("btn");
+// let paragraph = document.getElementsByTagName("p");
+// let btn = document.getElementById("btn");
 
 
-btn.addEventListener("click", function(){
-    for(let i = 0; i<paragraph.length; i++){
-        paragraph[2] .className = "bg-color"
-        paragraph[2].innerHTML = "inshah is the best"
-    }
-})
+// btn.addEventListener("click", function(){
+//     for(let i = 0; i<paragraph.length; i++){
+//         paragraph[2] .className = "bg-color"
+//         paragraph[2].innerHTML = "inshah is the best"
+//     }
+// })
 
 
 // let para = document.getElementById("p")
@@ -345,3 +345,49 @@ btn.addEventListener("click", function(){
 // btn.addEventListener("click" , function(){
 //     para.className = "hidden"
 // })
+
+
+
+
+// const student1 = {
+//   firstName : "inshah",
+//   lastName : "jamal",
+//   class : "web And app development",
+//   rollNo : 312767,
+//   hobbies : [
+//     "coding", "sleeping",  "eating"
+//   ],
+//   address :{
+//    street:  "801 pib colony karachi" ,
+//    zipCode : "74800"
+//   }
+// }
+
+// console.log(student1.hobbies[2]);
+
+// delete student1.class 
+// console.log(student1)                                                                 
+
+// console.table(student1)
+
+
+// let cities = ["Karachi", "lahore", "peshawar", "multan", "islamabad", "quetta"]
+
+// for(let city of cities){
+//   console.log(cities)
+// }
+
+// for(let index in cities){
+//   console.log(cities[3])
+// }
+
+// let nam = "Inshah"
+
+// for(let character of nam){
+//   console.log(nam);
+// }
+
+
+// for(let character in nam){
+//   console.log(character);
+// }
