@@ -311,11 +311,11 @@
 // let para = document.getElementById("para");
 
 // btn.addEventListener("click" , function(){
-    
+
 //     if(btn.innerHTML == "see more"){
 //         para.innerHTML = fullText;
 //         btn.innerHTML = "see less";
-    
+
 //     }
 
 
@@ -391,3 +391,56 @@
 // for(let character in nam){
 //   console.log(character);
 // }
+
+// const person = {
+//     firstName: "inshah",
+//     lastName: "jamal",
+//     class: "web",
+//     isEnrolled: true,
+//     eat: function(){
+// console.log(`${this.firstName} ${this.lastName} is eating`)
+//     },
+// };
+// console.log(Object.entries(person));
+// var valuesOfObj = Object(person)
+// for off
+// for(let value of valuesOfObj){
+//     console.log(value[1]);
+// }
+
+// for in
+// for(let key in person){
+//     console.log(person[key])
+// }  
+
+
+// convert object  into string
+
+// const obj = {Name: "inshah", number: 21}
+// const str = JSON.stringify(obj)
+// console.log(str);
+
+
+// convert string into object
+
+// const str = '{"Name" : "sahar", "age": 21}'
+// const obj = JSON.parse(str)
+// console.log(obj.Name);
+
+// what is local storage?
+
+// Local Storage ek web browser ka feature hai jo websites ko user ke browser mein data permanently store karne
+//  deta hai.Ye Web Storage API ka hissa hai aur key - value storage system provide karta hai.
+
+// saving simple strings 
+
+// localStorage . setItem ('userName' , 'age')
+// localStorage . setItem  ('inshah' , 21)
+
+// saving array and objects
+
+const user = [
+    firstName = "rahul",
+    age = 28,
+]
+
