@@ -439,8 +439,99 @@
 
 // saving array and objects
 
-const user = [
-    firstName = "rahul",
-    age = 28,
-]
+// const user = [
+//     firstName = "rahul",
+//     age = 28,
+// ]
 
+
+// function declaration
+
+// function sum1() {
+//     return 1 + 2
+// }
+
+// console.log(sum1())
+
+// function sum2() {
+//     return 1 - 2
+// }
+
+// console.log(sum2())
+
+// function sum3() {
+//     return 1 * 2
+// }
+
+
+// console.log(sum3())
+
+// function sum4() {
+//     return 6 / 2
+// }
+
+// console.log(sum4())
+
+
+
+// function sum5() {
+//     return 2 + 3 - 5
+// }
+
+// console.log(sum5())
+
+// function expression
+
+// let sum1 = function(){
+//     console.log("hi")
+//     return 1+2 
+
+// }
+
+// console.log(sum1())
+
+// let sum2 = function(){
+//     console.log("hi")
+//     return 1-2
+// }
+
+// console.log(sum2())
+
+// let sum3 = function(){
+//     console.log("hi")
+//     return 1*2
+// }
+
+// console.log(sum3())
+
+// let sum4 = function(){
+//     console.log("hi")
+//     return 6 / 2
+// }
+
+// console.log(sum4())
+
+
+// let sum5 = function(){
+//     console.log("hi")
+//     return 2 + 3 - 5
+// }
+
+// console.log(sum5())
+
+// arrow function / lambda function / flat function
+
+let sum1 = sum1 => 1+2 
+console.log(sum1())
+
+let sum2 = sum2 => 1-2
+console.log(sum2())
+
+let sum3 = sum3 => 1*2
+console.log(sum3())
+
+let sum4 = sum4 => 6 / 2
+console.log(sum4())
+
+let sum5 = sum5 => 2 + 3 - 5 
+console.log(sum5())
